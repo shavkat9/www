@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+}
+.nav__text {
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+.nav {
+    align-items: center;
+    background-color:rgba(186, 156, 156, 0.908);
+    display: flex;
+    justify-content: space-between;
+}
+.navbar__item {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.navbar__item a {
+    mix-blend-mode: darken;
+    color: rgba(55, 38, 38, 0.908);
+}
+.nav__logo {
+    padding: 20px 40px;
+    font-size: 20px;
+}
+.content h3 {
+    width: 70%;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(111, 102, 102);
+    margin: 80px auto;
+    line-height: 35px;
+}
+header {
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px;
+    padding-left: 230px;
+    background-color: rgba(186, 156, 156, 0.908);
+}
+.header__main {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: auto;
+}
+.header__main img {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.header__main h4 {
+    padding: 8px 75px;
+    font-size: 20px;
+    color: #fff;
+}
+.header__main button {
+    width: 120px;
+    height: 34px;
+    border-radius: 40px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid rgb(180, 158, 158);
+    margin: 5px 40px;
+}
+.header__main button:hover {
+    background-color: rgba(186, 156, 156, 0.908);
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
